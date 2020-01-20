@@ -1,0 +1,87 @@
+Wolf recruit explained by moose abundance
+
+- Significant-ish P-value, suggesting a trend (though the slope is not very steep)
+- Reasonable R2 for ecology
+- Equation for the line:
+	w_recruitment = 0.0005 * m_abundance + -0.232
+- If you use this equation, be sure to make sure that w_recruitment doesn't come out as negative
+
+===============================================
+                        Dependent variable:    
+                    ---------------------------
+                           w_recruitment       
+-----------------------------------------------
+m_abundance                  0.0005**          
+                             (0.0002)          
+                                               
+Constant                      -0.232           
+                              (0.217)          
+                                               
+-----------------------------------------------
+Observations                    11             
+R2                             0.370           
+Adjusted R2                    0.300           
+Residual Std. Error       0.107 (df = 9)       
+F Statistic             5.290** (df = 1; 9)    
+===============================================
+Note:               *p<0.1; **p<0.05; ***p<0.01
+
+
+
+_______________________________________________
+
+
+
+
+Wolf kill rate explained by moose abundance (monthly and yearly)
+
+- Very significant P-value
+- Very good R2
+- Again, make sure not to have a negative kill rate
+
+MONTHLY
+- Equation for the line: 
+  w_killRate = 0.001 * m_abundance + -0.353
+===============================================
+                        Dependent variable:    
+                    ---------------------------
+                            w_killRate         
+-----------------------------------------------
+m_abundance                  0.001***          
+                             (0.0002)          
+                                               
+Constant                      -0.353           
+                              (0.190)          
+                                               
+-----------------------------------------------
+Observations                    10             
+R2                             0.744           
+Adjusted R2                    0.712           
+Residual Std. Error       0.093 (df = 8)       
+F Statistic            23.223*** (df = 1; 8)   
+===============================================
+Note:               *p<0.1; **p<0.05; ***p<0.01
+
+
+YEARLY
+- Equation for the line:
+  w_killRate = 0.010 * m_abundance + -4.237
+===============================================
+                        Dependent variable:    
+                    ---------------------------
+                            w_killRate         
+-----------------------------------------------
+m_abundance                  0.010***          
+                              (0.002)          
+                                               
+Constant                      -4.237           
+                              (2.282)          
+                                               
+-----------------------------------------------
+Observations                    10             
+R2                             0.744           
+Adjusted R2                    0.712           
+Residual Std. Error       1.121 (df = 8)       
+F Statistic            23.223*** (df = 1; 8)   
+===============================================
+Note:               *p<0.1; **p<0.05; ***p<0.01
